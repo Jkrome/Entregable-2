@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+ul {
+  list-style: none;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+input,
+button {
+  display: inline-block;
+  cursor: pointer;
+  font-family: inherit;
+  text-align: center;
+  border: none;
+}
+/* ---   APP   --- */
+.app{
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('https://78.media.tumblr.com/90a10a126d1e3beb56566159799e553d/tumblr_ozo6zbdxOO1vbdodoo1_500.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
